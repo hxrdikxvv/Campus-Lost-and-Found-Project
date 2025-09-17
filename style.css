@@ -1,0 +1,25 @@
+/* Professional scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* slim scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #e5e7eb; /* light gray track for subtlety */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2563eb; /* Retrievo blue */
+    border-radius: 8px;
+    border: 2px solid #e5e7eb; /* creates padding around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1d4ed8; /* slightly darker on hover */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #2563eb #e5e7eb;
+}

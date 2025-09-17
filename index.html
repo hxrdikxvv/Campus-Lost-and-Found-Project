@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Lost and Found</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="flex justify-between items-center bg-white p-3">
+    <div class="logo flex justify-center">
+      <a href="index.html">
+        <!-- <img src="logo.png" alt="Campus Lost and Found Logo" class="h-10"> -->
+        <span class="text-xl font-bold text-blue-600">Retrievo</span>
+      </a>
+    </div>
+    <div class="nav-links flex ">
+      <ul class="flex space-x-6 items-center">
+        <li><a href="index.html" class="text-gray-700 hover:text-blue-500">Home</a></li>
+        <li><a href="about.html" class="text-gray-700 hover:text-blue-500">About</a></li>
+        <li><a href="reportlost.html" class="text-gray-700 hover:text-blue-500">Report Item</a></li>
+        <li><a href="found.html" class="text-gray-700 hover:text-blue-500">Found Items</a></li>
+        <!-- <li><a href="contact.html" class="text-gray-700 hover:text-blue-500">Contact Us</a></li> -->
+      </ul>
+
+      <div class="auth-buttons flex  space-x-4 ml-10">
+        <button
+          class="px-5 py-2 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition duration-200 ease-in-out">Login</button>
+        <button
+          class="px-5 py-2 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition duration-200 ease-in-out">Sign
+          Up</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="min-h-[calc(100vh-64px)] bg-gray-100 flex items-center">
+    <div
+      class="container mx-auto p-6 md:px-24 flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8">
+
+      <div class="text-center md:text-left md:w-1/2">
+        <h2 class="text-2xl md:text-6xl font-extrabold text-gray-800">
+          Welcome to the Campus Lost and Found
+        </h2>
+        <p class="text-gray-600 mt-3 text-lg md:text-xl max-w-xl mx-auto md:mx-0 leading-relaxed">
+          Your one-stop solution for reporting and finding lost items on campus.
+        </p>
+
+        <div class="mt-6 flex justify-center md:justify-start space-x-4">
+          <button
+            class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition duration-200 ease-in-out">
+            Report Lost Item
+          </button>
+          <button
+            class="px-8 py-3 bg-green-600 text-white font-semibold rounded-full shadow-lg hover:bg-green-700 transition duration-200 ease-in-out">
+            View Found Items
+          </button>
+        </div>
+      </div>
+
+
+      <div class=" md:w-1/2 flex justify-center md:justify-end">
+        <img src=".\imgs\campus.jpg" alt="Campus Image" class="w-full max-w-lg rounded-lg ">
+      </div>
+
+    </div>
+  </main>
+
+
+  <section class="bg-white py-16 px-6 md:px-12 lg:px-20">
+    <div class="max-w-6xl mt-8 mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-6">
+        About Campus Lost & Found
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+        Our platform makes it simple for students and staff to report lost or found items on campus.
+        Whether it’s a misplaced phone, a forgotten book, or a lost ID card, we help reconnect belongings
+        with their rightful owners.
+      </p>
+
+      <div class="grid gap-10 md:grid-cols-3">
+        <!-- Step 1 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+          <div
+            class="w-14 h-14 mx-auto bg-blue-600 text-white flex items-center justify-center rounded-full text-xl font-bold mb-4">
+            1
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Report an Item</h3>
+          <p class="text-gray-600 text-sm">
+            Quickly report lost or found items with essential details such as description, date, and location.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+          <div
+            class="w-14 h-14 mx-auto bg-green-600 text-white flex items-center justify-center rounded-full text-xl font-bold mb-4">
+            2
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Browse Listings</h3>
+          <p class="text-gray-600 text-sm">
+            Explore reported items easily using categories and filters to quickly find what you’re looking for.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+          <div
+            class="w-14 h-14 mx-auto bg-yellow-500 text-white flex items-center justify-center rounded-full text-xl font-bold mb-4">
+            3
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Reconnect</h3>
+          <p class="text-gray-600 text-sm">
+            Connect with the rightful owner or finder to return the item securely and hassle-free.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="bg-gray-900 text-gray-300 mt-10">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
+
+        <!-- Logo / Brand -->
+        <div class="mb-6 md:mb-0">
+          <h2 class="text-2xl font-bold text-white">Retrievo</h2>
+          <p class="text-gray-400 mt-2 text-sm">
+            Keeping campus belongings connected.
+          </p>
+        </div>
+
+        <!-- Links -->
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
+          <div>
+            <h3 class="text-white font-semibold mb-3">Company</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">About</a></li>
+              <li><a href="#" class="hover:text-white">Careers</a></li>
+              <li><a href="#" class="hover:text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-white font-semibold mb-3">Resources</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Blog</a></li>
+              <li><a href="#" class="hover:text-white">Help Center</a></li>
+              <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-white font-semibold mb-3">Follow Us</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Twitter</a></li>
+              <li><a href="#" class="hover:text-white">LinkedIn</a></li>
+              <li><a href="#" class="hover:text-white">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-sm">
+        © 2025 Retrievo. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>
