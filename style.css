@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* For IE/Edge */
+* {
+  -ms-overflow-style: none;
+}
